@@ -2,7 +2,6 @@
  * My own style, based on HTML5Boilerplate standard style.
  */
 @import url(../css/style.css);
-@import url(http://fonts.googleapis.com/css?family=Shojumaru);
 
 
 /**
@@ -18,10 +17,11 @@ body {
 }
 
 #above {
-  border-bottom:1px solid #eee;
+	background-color:#2F2F2F;
+  border-bottom:1px solid #000;
   margin-bottom:4px;
   padding-left:1em;
-  color:#333;
+  color:#2153A2;
   font-size:0.7em;
 }
 
@@ -32,12 +32,18 @@ body {
   padding:1em;
   width:970px;
   background-color:#fff;
-  border:1px solid #999;
+  border:3px solid #000;
   border-radius: 10px;
 } 
 
+#header {
+	 background-color:#10284E;
+	
+	 }
+
 #main {
   min-height:20em;
+  
 }
 
 #footer {
@@ -56,27 +62,55 @@ body {
 .site-logo,
 .site-title,
 .site-slogan {
-  display:table-cell;
+	Font-family: Calibri, Verdana, Ariel, sans-serif;
+/*  display:table-cell;
   width:inherit;
   vertical-align:middle;
-  text-align:left;
+  text-align:left;*/ 
 }
 
+.site-title {
+  position: absolute;
+  top: -90px;
+  left: 350px;
+  font:bold 30px Arial, serif;
+  font-size: 7em;
+  color: #2153A2;
+  text-shadow:#000 4px 4px 4px;
+}
+
+.site-slogan {
+  position: absolute;
+  top: 110px;
+  left: 700px;
+  font-weight: bold;
+  text-shadow:#000 4px 4px 4px;
+  font-size: 20px;
+  color:#2153A2;
+}
+
+.sitelogo {
+  position: absolute;
+  top: 5px;
+  left:0px;
+}
+
+/**
 .site-logo {}
 .site-title {
-  font-family: 'Shojumaru', cursive;
+	
+	font-weight: bold;
   line-height:0;
-  font-size:3em;
-  padding-left:20px;
+  font-size:6em;
+  padding-left:10px;
   color:#333;
   text-shadow:#ccc 4px -4px 4px;
 }
 .site-slogan {
-  font-family: 'Shojumaru', cursive;
   padding-left:20px;
   font-style:italic;
 }
-
+**/
 
 /**
  * Navbar
@@ -85,13 +119,14 @@ body {
   font-family: arial;
   font-weight: bold;
   padding: 2px 8px;
-  background:#666;
-  border:2px solid #999;
+  background:#2153A2;
+  border:3px solid #000;
 }
-#navbar a {padding:6px 8px;text-decoration:none;border:2px solid transparent;color:#fff;}
-#navbar a:hover,
-#navbar a.selected
-{background:#999;border:2px solid #666;}
+#navbar a {padding:10px 8px;text-decoration:none;border:2px solid transparent;color:#10134E;}
+
+#navbar a:hover{background:#10284E;border:2px solid #000; color:#2153A2; text-shadow: 0 0 0.2em #333, 0 0 0.2em #333, 0 0 0.2em #333;}
+	
+#navbar a.selected{background:#10284E;border:2px solid #000; color:#2153A2; text-shadow: 0 0 0.2em #000, 0 0 0.2em #000, 0 0 0.2em #000;}
 
 
 /**

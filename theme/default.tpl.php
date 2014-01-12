@@ -43,7 +43,7 @@
   <header id="header">
     <div id="banner">
       <a href="index.php">
-        <img class="site-logo" src="img/phpmvc_icon_80x80.png" alt="logo" width="80" height="80" />
+        <img class="site-logo" src="img/phpmvc_icon_120x120.png" alt="logo" width="120" height="120" />
       </a>
       <p class="site-title">phpmvc</p>
       <p class="site-slogan">Att koda ett PHP-baserat och MVC-inspirerat ramverk</p>

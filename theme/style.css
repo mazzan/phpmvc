@@ -38,6 +38,7 @@ body {
 
 #header {
 	 background-color:#10284E;
+	 position:relative;
 	
 	 }
 
@@ -63,16 +64,16 @@ body {
 .site-title,
 .site-slogan {
 	Font-family: Calibri, Verdana, Ariel, sans-serif;
-/*  display:table-cell;
+  display:table-cell;
   width:inherit;
   vertical-align:middle;
-  text-align:left;*/ 
+  text-align:left;
 }
 
 .site-title {
   position: absolute;
-  top: -90px;
-  left: 350px;
+  top: -120px;
+  left: 150px;
   font:bold 30px Arial, serif;
   font-size: 7em;
   color: #2153A2;
@@ -81,8 +82,8 @@ body {
 
 .site-slogan {
   position: absolute;
-  top: 110px;
-  left: 700px;
+  top: 90px;
+  left: 540px;
   font-weight: bold;
   text-shadow:#000 4px 4px 4px;
   font-size: 20px;
